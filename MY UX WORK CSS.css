@@ -1,0 +1,28 @@
+.workGrid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.img {
+    width: 100%;
+}
+
+.summary {
+    padding: 150px;
+    border: solid black;
+    align-items: center;
+}
+
+.projects {
+    text-align: center;
+}
+
+.MyWork {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        grid-template-columns: 50% 50%;
+    }
+}

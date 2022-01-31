@@ -1,0 +1,71 @@
+.flexContainer {
+    display: flex;
+    width: 1fr 1fr 1fr;
+    padding: 10px auto;
+    flex-direction: row;
+}
+
+.mySkills h1 {
+    text-align: center;
+}
+
+.flexContainer P,
+h3 {
+    margin: 15px;
+}
+
+.flexContainer img {
+    padding: 10px;
+}
+
+.research {
+    border: black solid;
+    width: 33%;
+}
+
+.Empathy {
+    border: black solid;
+    width: 33%;
+}
+
+.Collaboration {
+    border: black solid;
+    width: 33%;
+}
+
+.myTools {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.toolLabel {
+    display: flex;
+    justify-content: center;
+}
+
+.myTools img {
+    height: 150px;
+    width: auto;
+}
+
+.Code h3 {
+    text-align: center;
+}
+
+.Codeimg {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        grid-template-rows: 1fr;
+    }
+    .myTools {
+        grid-template-columns: 1fr 1fr;
+    }
+}
